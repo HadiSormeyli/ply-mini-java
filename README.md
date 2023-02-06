@@ -5,10 +5,10 @@ Mini java compiler using ply tool.
 
 There are four phases:
   
-1.Lexer: complete.
-2.Parser: complete.
-3.Semantic: Syntax Tree is formed, and has uniqueness check and type check.
-4.Code generation: incomplete, just generate three address code for classes ,fields,methods and parameters.
+1.Lexer: complete.\n
+2.Parser: complete.\n
+3.Semantic: Syntax Tree is formed, and has uniqueness check and type check.\n
+4.Code generation: incomplete, just generate three address code for classes ,fields,methods and parameters.\n
 
 Mini_Java Grammar:
   Program ::= (ClassDeclaration)* eot
